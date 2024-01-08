@@ -12,7 +12,11 @@ const Header = () => {
       <div className="darkmode-container mx-md-5 ms-sm-auto order-md-3">
       <Darkmode />
       </div>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav"><div className="custom-toggler-icon">
+      <span className="line"></span>
+      <span className="line"></span>
+      <span className="line"></span>
+    </div></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         
         <Nav className="ms-auto custom-link  order-md-2">
@@ -23,10 +27,6 @@ const Header = () => {
           <Nav.Link href="#contact"><span>{'<'}</span>Contact<span>{'/>'}</span></Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      
-      
-      
-
     </Navbar>
   );
 };

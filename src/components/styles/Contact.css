@@ -1,4 +1,4 @@
-.contact-section{
+.contact-section {
     padding-top: 10%;
 }
 
@@ -61,4 +61,19 @@
     box-shadow: 0 8px 32px #872f1f5e;
     color: var(--color-primary);
 }
-
+/* toggle button */
+.custom-toggler-icon {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    border: none;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-primary);
+  
+}
