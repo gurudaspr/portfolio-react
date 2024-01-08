@@ -25,7 +25,7 @@ const HomeSection = () => {
       <Container > 
         <Row>
           <Col md={8}sm={12} className="home-content">
-            <h1>I'm GURUDAS P R</h1>
+            <h1>I'M GURUDAS P R</h1>
             <h1><span>{'<'} </span><span className="typed"></span><span>{'/>'}</span></h1>
             <p>
               "Passionate MERN stack enthusiast dedicated to creating seamless and engaging web experiences. Proficient in building robust applications that blend functionality with elegant design."
