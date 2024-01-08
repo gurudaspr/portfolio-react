@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import Header from './components/Header';
+import HomeSection from './components/HomeSection';
+import AboutMe from './components/AboutMe';
+import MySkillsTools from './components/MySkillsTools';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Header />
+      <HomeSection />
+      <Container >
+        <Row>
+          <Col lg={12}>
+            <AboutMe />
+          </Col>
+        </Row>
+      </Container>
+      <MySkillsTools />
+      <Container >
+        <Row>
+          <Col md={12}>
+            <Projects />
+            <Contact />
+          </Col>
+        </Row>
+      </Container>
+      <Footer/>
+      
+
     </div>
+
   );
 }
 
 export default App;
+

@@ -1,0 +1,25 @@
+.project-section{
+    padding-top: 10%;
+}
+
+
+.project-section .card{
+background-color: var(--bg-secondary);
+color: var(--color-primary);
+
+box-shadow: 0 8px 32px #872f1f5e;
+border: none;
+}
+
+
+.project-section a{
+    text-decoration: none;
+}
+.project-section .card-data{
+    transition: all 0.2s ease-in-out;
+
+}
+.project-section .card-data:hover{
+    
+    scale: 1.1;
+}

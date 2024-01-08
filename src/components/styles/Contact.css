@@ -1,0 +1,64 @@
+.contact-section{
+    padding-top: 10%;
+}
+
+.form-container {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+    box-shadow: 0 8px 32px #872f1f5e;
+    color: var(--color-primary);
+}
+
+
+.form-control {
+    background-color: var(--bg-primary);
+    border: 1px solid #872f1f5e;
+}
+
+
+.form-control:focus {
+    background-color: var(--bg-primary);
+    border: 1px solid #872f1f5e;
+    box-shadow: none !important;
+    color: var(--color-primary);
+
+}
+
+.form-control::placeholder {
+    color: var(--color-primary);
+
+}
+
+.form input {
+    outline: none;
+
+}
+
+.btn-col {
+    background-color: var(--color-primary);
+    color: var(--bg-primary);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn-col:hover {
+    background-color: var(--color-secondary);
+    color: var(--bg-secondary);
+}
+
+.contact-container {
+    width: 100%;
+    margin: 10px;
+    padding: 100px 0 0 20px;
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+    box-shadow: 0 8px 32px #872f1f5e;
+    color: var(--color-primary);
+}
+

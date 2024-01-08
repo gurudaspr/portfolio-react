@@ -1,10 +1,28 @@
-body {
+:root{
+  --color-primary: #1f1f1f;
+  --color-secondary: #303030;
+  --bg-secondary: #fff;
+  --bg-primary: #dfdfdf;
+}
+[data-theme="dark"]{
+  
+  --bg-primary: #2e2e2e;
+  --bg-secondary: #272626;
+  --color-primary: #fff;
+  --color-secondary: #dfdfdf;
+}
+
+/* *{
+  transition:  all 0.1s ease-in-out;
+} */
+body { 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {

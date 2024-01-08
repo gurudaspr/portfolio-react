@@ -1,0 +1,42 @@
+.skill-section {
+    padding-top: 10%;
+    
+  }
+  
+.skill-content p{
+    font-size: larger;
+
+}
+
+
+
+.skill {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5,0,0,.3);
+    box-shadow: 0 8px 32px #872f1f5e;
+    margin: 10px;
+    border: 1px 0 solid rgba(255,255,255,.18);
+    border-radius: 10px;
+    height: 110px;
+}
+.skill-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px;
+    
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.skill-img{
+    max-width: 70px;
+    transition: .2s all ease-in-out;
+}
+.skill img:hover {
+    transform: scale(1.3);
+}
