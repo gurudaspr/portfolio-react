@@ -28,11 +28,12 @@
 }
 
 .form-control::placeholder {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 
 }
 
 .form input {
+    color: var(--color-primary);
     outline: none;
 
 }

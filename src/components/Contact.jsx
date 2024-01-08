@@ -14,6 +14,7 @@ const Contact = () => {
         <Row className="d-flex justify-content-between">
           <Col md={6} sm={12} className="mb-4">
             <div className="form-container mt-5 pb-5 p-5 h-100 mx-auto d-flex flex-column justify-content-between">
+            <h2 className='text-center'>Send Message</h2>
               <form className='form'>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
@@ -23,7 +24,7 @@ const Contact = () => {
                     type="text"
                     className="form-control"
                     id="name"
-                    placeholder="Name"
+                    placeholder="Name"required
                   />
                 </div>
                 <div className="mb-3">
@@ -34,7 +35,7 @@ const Contact = () => {
                     type="email"
                     className="form-control"
                     id="email"
-                    placeholder="name@example.com"
+                    placeholder="name@example.com" required
                   />
                 </div>
                 <div className="mb-3">
@@ -45,10 +46,10 @@ const Contact = () => {
                     className="form-control"
                     id="message"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Message" required
                   ></textarea>
                 </div>
-                <div className="text-center">
+                <div className="text-center mt-5">
                   <button type="submit" className="btn-col">
                     Submit
                   </button>
@@ -58,7 +59,7 @@ const Contact = () => {
           </Col>
           <Col md={6} sm={12} className='mb-4' >
             <div className="contact-container mt-5 p-5 h-100 mx-auto d-flex flex-column justify-content-between">
-              <h2>Get in touch</h2>
+              <h2 className='text-center'>Get in Touch</h2>
               <div className="address">
                 <p>
                   Pranavam(H), Anakkallu(PO),
