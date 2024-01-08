@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div className="text-center mt-5">
                   <button type="submit" className="btn-col">
-                    Submit
+                    Send Message
                   </button>
                 </div>
               </form>
