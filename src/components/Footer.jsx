@@ -7,7 +7,7 @@ function Footer() {
            <footer className="footer footer-col mt-5 py-3 ">
         <div className="container">
           <Col md={12} className="text-center mt-2">
-            <p>&copy; 2024 ASHFLIX | Designed by gurudaspr</p>
+            <p>&copy; 2024 ASHFLIX | Designed by <a href="#home"><span style={{ color: 'orangered' }}>gurudaspr</span></a></p>
           </Col>
         </div>
       </footer>

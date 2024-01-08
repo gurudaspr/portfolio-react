@@ -73,6 +73,9 @@ body {
 
 .footer-col{
   background-color: var(--bg-secondary);
-color: var(--color-primary);
+  color: var(--color-primary);
 
+}
+.footer-col a{
+  text-decoration: none;
 }
