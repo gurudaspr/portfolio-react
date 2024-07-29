@@ -3,6 +3,8 @@ import calculator  from './cardimg/calculator.png'
 import signup  from './cardimg/signup.png'
 import kerala from './cardimg/kerala-tourism.png'
 import todo from './cardimg/todo.png'
+import filmgo1 from './cardimg/filmgo1.png'
+import expense from './cardimg/expense.png'
 const cardData = [
     {
       id: 1,
@@ -29,6 +31,19 @@ const cardData = [
       image: todo,
       link :'https://todo-list-gurudas-p-rs-projects.vercel.app/'
     },
+    {
+      id: 5,
+      title: 'FilmGo',
+      image: filmgo1,
+      link :'https://linkmix.co/24106974'
+    },
+    {
+      id: 6,
+      title: 'Expense Tracker',
+      image: expense,
+      link :'https://expense-log.vercel.app/'
+    },
+    
   ];
   
   export default cardData;

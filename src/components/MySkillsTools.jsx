@@ -58,7 +58,7 @@ function MySkillsTools() {
             </Col>
             <Col md={2} xs={6}>
               <div className="skill">
-              <img src={require('../assets/skills/nextjs.svg').default} alt="Node" className="skill-img" />
+              <img src={require('../assets/skills/tailwindcss.svg').default} alt="Node" className="skill-img" />
               </div>
             </Col>
             <Col md={2} xs={6}>
